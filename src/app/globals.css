@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --navigation-height: 9rem;
+    --max-page-width: 124rem;
+  }
+
+  html {
+    @apply font-sans;
+    font-size: 62.5%;
+    box-sizing: content-box;
+  }
+
+  h1 {
+    @apply font-bold tracking-tight;
+    font-size: 8rem;
+    line-height: 8rem;
+  }
+
+  h3 {
+    @apply font-bold tracking-tight;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+  }
+
+  h4 {
+    @apply font-medium;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+
+  h5 {
+    @apply font-medium;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+}
+
+@layer utilities {
+  .paragraph-extra-large {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .paragraph-large {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+  }
+
+  .paragraph-regular {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .paragraph-small {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+
+  .paragraph-caption {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
