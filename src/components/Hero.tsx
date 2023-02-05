@@ -21,10 +21,10 @@ const Hero = () => {
           </div>
 
           <div className="flex gap-3 mt-15">
-            <Button type="primary" size="sm">
+            <Button type="primary" size="sm" className="whitespace-nowrap">
               Talk To Sales
             </Button>
-            <Button type="secondary" size="sm">
+            <Button type="secondary" size="sm" className="whitespace-nowrap">
               Check Our Products ✨
             </Button>
           </div>
